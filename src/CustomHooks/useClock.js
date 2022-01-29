@@ -16,7 +16,12 @@ const useClock = () =>
 		}, 1000);
 	}, [])
 
-	return {apiTime, stringTime,stringDate}
+	const toSimpleString = (date) => {
+		const simpleDate = new Date(date); 
+		return simpleDate.getHours() + "h : " + simpleDate.getMinutes() + "m";
+	}
+
+	return {apiTime, stringTime,stringDate, toSimpleString}
 }
 
 export default useClock;

@@ -19,6 +19,7 @@ const usePostFetch = (url,method, body) => {
 			.catch(e => setError(e))
 			.finally(() => setLoading(false));
 	}, [url, method, body])
+
 	return {response, loading, error};
 }
 
