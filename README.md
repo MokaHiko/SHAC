@@ -1,3 +1,9 @@
+# Demo Images
+![alt text](https://github.com/tic-tacs/SHAC/blob/main/demo-images/Homepage.png?raw=true)
+![alt text](https://github.com/tic-tacs/SHAC/blob/main/demo-images/EmployeeTimeCard.png?raw=true)
+![alt text](https://github.com/tic-tacs/SHAC/blob/main/demo-images/EmployeeSelect.png?raw=true)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
